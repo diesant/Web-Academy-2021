@@ -1,0 +1,125 @@
+/* I think line 2 is making the box for the navigation tool. */
+*{
+ box-sizing: border-box;
+}
+/* I think line 6 is making the background color green and the font color paleviolet red  */
+body{
+  background-color: rgb(199, 250, 224) ;
+  color: black;
+}
+/* Style of the header */
+
+/*style of the navigation bar*/
+.topnav{
+  background-color: #9DF3C4;
+  overflow: hidden;
+}
+.topnav a{
+  color: gray;
+  float: left;
+  display: block; 
+  text-align: center;
+  padding: 14px 16px;
+}
+.topnav a:hover{
+  background-color: #1FAB89;
+  color: black;
+}
+.header{
+  background-color: #62D2A2  ;
+  padding: 20px;
+  text-align: center;
+  color:black;
+  }
+  .column{
+    float: left;
+    width:33.33%;
+    padding:15x;
+     border: 2px solid #1FAB89;
+  border-radius: 15px 50px;
+  background-color: rgb(200, 241, 219);
+   }
+  .frog{
+    float: center;
+    width:33.33%;
+    padding:15x;
+     border: 2px solid #1FAB89;
+  border-radius: 25px;
+  background-color: rgb(200, 241, 219);
+  }
+  .wasd{
+    border: 10px solid gray;
+    width: 500px;
+    height: 500px;
+  position: relative;
+  left: 500px;
+  margin: 10px;
+  overflow: hidden:
+  }
+  .crane{
+    border: 10px solid gray;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin: 10px;
+    left: 500px;
+  }
+.row{
+  display : flex;
+  flex-direction : row;
+}
+.coin{
+width:100px;
+      height:100px;
+      position:absolute;
+      left:205px;
+      top:5px;
+      z-index:1;
+      opacity: 0%;}
+.coin1{
+width:100px;
+      height:100px;
+      position:absolute;
+      left:10px;
+      top:350px;
+      z-index:1;
+      opacity: 0%;}
+.coin2{
+width:100px;
+      height:100px;
+      position:absolute;
+      left:362px;
+      top:245px;
+      z-index:1;
+      opacity: 0%;}
+.coin3{
+width:100px;
+      height:100px;
+      position:absolute;
+      left:150px;
+      top:200px;
+      z-index:1;
+      opacity: 0%;}
+.coin4{
+width:100px;
+      height:100px;
+      position:absolute;
+      left:350px;
+      top:350px;
+      z-index:1;
+      opacity: 0%;}
+   
+    img.coin:hover{
+      visibility:visible;
+      opacity: 100%;}
+    img.coin1:hover{
+      opacity: 100%;}
+      
+    img.coin2:hover{
+      opacity: 100%;}
+      
+    img.coin3:hover{
+      opacity: 100%;}
+      
+    img.coin4:hover{
+    opacity: 100%;}

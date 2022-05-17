@@ -1,0 +1,29 @@
+#movingBox{
+  width:400px;
+  height:400px;
+  background-color:#9a879d;
+  position: relative;
+  border-style: solid;
+}
+button{
+  background-color:#D1D2F9;
+  width:65px;
+  height:25px;
+  color:#11785f;
+  box-shadow: 1px 1px black;
+}
+button:hover{
+  background-color:#A3BCF9;
+  color:#52605d;
+}
+input{
+  background-color:#D1D2F9;
+  width:65px;
+  height:25px;
+  color:#11785f;
+  box-shadow: 1px 1px black;
+}
+button:hover{
+  background-color:#A3BCF9;
+  color:#52605d;
+}

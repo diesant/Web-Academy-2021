@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--  -->
+<html>
+  <link rel="stylesheet" href="../../MainPortfolio.css">
+<!-- This block of code is the head of the document that connects links to the css aswell as the title of the document.-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+<!-- This block of code is the body of the document it has all of the divs adn script inside of it.-->
+  <body> 
+<div class="topnav">
+
+    <a href="../Lab1/lab1.html">LAB # 1 </a>
+    <a href="../Lab2/lab2.html">LAB # 2 </a>
+    <a href="../Lab3/lab3.html">LAB # 3 </a>   
+    <a href="../Lab4/lab4.html">LAB # 4 </a>
+    <a href="../Lab5/Lab5.html">LAB # 5 </a>
+    <a href="../Lab6/Lab6.html">LAB # 6 </a>
+    <a href="../Lab7/Lab7.html">LAB # 7 </a>
+    <a href="../Lab8/Lab8.html">LAB # 8 </a>
+    <a href="../Lab9/Lab9.html">LAB # 9 </a>
+    <a href="../Lb10/Lb10.html">LAB # 10 </a>
+    <a href="../Lb11/Lb11.html">LAB # 11 </a>
+    <a href="../Lb12/Lb12.html">LAB # 12 </a>
+    <a href="../Lb13/Lb13.html">LAB # 13 </a>
+    <a href="../Lb14/Lb14.html">LAB # 14 </a>
+    <a href="../Lb15/Lb15.html">LAB # 15 </a>
+    <a href="../Lb17/Lb17.html">LAB # 17 </a>
+    <a href="../Lb18/Lb18.html">LAB # 18 </a>
+    <a href="../Lb19/Lb19.html">LAB # 19 </a>
+    <a href="../Lb20/Lb20.html">LAB # 20 </a>
+    <a href="../../index.html">Home</a>
+  </div
+<div class="header">
+<h1> Lab # 16      </h1>
+<h4> Diego Santos         3/10/22 </h4> 
+</div>
+<!-- This block is the main div. This has where you input information aswell as the button. -->
+ <div class="wrapper">
+<!-- This is the div of the page after you click the button. It states the info inputted aswell as a button to return to the first page. -->			
+			<div id="after">
+<!-- This div is where it would say thank you for inserting your information. -->
+				<section class="section_info">
+					<h1 style="font-size: 3.5em;  margin-bottom: 0.3em;">Registered Info</h1>
+					<h4 style="margin-bottom: 3em; color:#fff">Thank you for registering!</h4>
+				</section>
+<!-- This div has the information you started -->
+				<section class="section_userform">
+<!-- This div states teh information that they inserted on the previous page. -->
+					<div class="break">
+ 						<p class="result_label">Your name:</p>
+						<p class="result" id="nameResult"></p>
+					</div>
+<!-- This div is similar to the last but instead of name its their email. -->
+					<div class="break">
+						<p class="result_label">Your Email:</p>
+						<p class="result" id="emailResult"></p>
+					</div>
+<!-- This div is similar to the last but instead of name its their phone -->
+					<div class="break">
+						<p class="result_label">Your Phone:</p>
+						<p class="result" id="phoneNumResult"></p>
+					</div>
+<!-- This div is the button and the code inside it makes the button function. -->
+					<div class="break buttonWrapper">
+							<input id="goBack" class="button" type="button" value="Return" onClick="returnHome();">
+						</div>
+				</section>
+			</div>
+			
+			
+<!-- This is the div of the first page. This is where you would put in your information and also the button. -->			
+			<div id="before">
+<!-- This is the section where it says register. This has the h1 line so that register can be said. -->			
+				<section class="section_info">
+					<h1>Register</h1>
+				</section>
+
+				<hr id="line">
+<!-- This section is for the userform. -->
+				<section class="section_userform">
+					<form name="userform">
+<!-- This section is the reason you can type into the box. This section is for the name one. -->
+						<div class="break">
+							<p class="input_label">Name:</p>
+							<input class="textbox" id="user_name" type="text" name="input_username" placeholder=""/>
+						</div>
+<!-- This section is the reason you can type into the box. This section is for the email one. -->
+						<div class="break">
+							<p class="input_label">Email:</p>
+							<input class="textbox" id="user_email" type="text" name="input_email" placeholder=""/>
+						</div>
+<!-- This section is the reason you can type into the box. This section is for the phone one. -->
+						<div class="break">
+							<p class="input_label">Phone:</p>
+							<input class="textbox" id="user_phoneNumber" type="text" name="input_phoneNum" placeholder=""/>
+						</div>
+<!-- This div is for the button. This makes teh button functionable. -->
+						<div class="break buttonWrapper">
+							<input id="input_username_button" class="button" type="button" value="submit" onClick="submitForum();">
+						</div>
+
+					</form>
+				</section>
+			</div>
+<!-- This script is what connects the html document to the javascript. -->
+    <script src="script.js">
+      
+    </script>
+  </body>
+</html> 

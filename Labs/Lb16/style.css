@@ -1,0 +1,140 @@
+/* This css makes it so that it applys for every part of the html. */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  font-family:"Helvetica", sabs-serif;
+}
+/* This affects the body of the document. Pretty mcuh everything you can see. */
+body{
+background-color:#bbb6d8;
+height: 100vh;
+  width:100vh;
+  display:block;
+  position:relative;
+}
+/* This affects everything that is inside of the main div. the one that applies to almost everything inside of the body. */
+.wrapper{
+display:block;
+background-color: #ccfffc;
+color:#7A5C58;
+  height:600px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  padding:4px;
+  outline:#7A5C58 solid,7px;
+  outline-offset: 15px;
+  overflow:hidden
+}
+/* This affects the section userform.*/
+.section_userform{
+  width:75%;
+  display:block;
+  margin: 0 auto;
+  color: white;
+}
+/* This affects the input_label and everything it looks like. */
+.input_label{
+  width:35%;
+  text-align:right;
+  font-size:1.5em;
+  color:#99621E;
+}
+/* This affects what the div that says the title of the textbox looks like. */
+.break{
+  display:block;
+  width:100%;
+  margin:2em 0;
+}
+/* This what the textbox looks like. Here is where you would type out your information. */
+.textbox{
+  width:50%;
+  height:1.8em;
+  box-sizing:content-box;
+  background-color:#E8FCCF;
+  border-color:#dc7f9b;
+  padding-left:1em;
+  color:#7A5C58;
+}
+/* This affects what the button looks like. */
+.button{
+  display:block;
+  marging: none;
+  padding: 0.5em 2.5em;
+  text-transform:uppercase;
+  backgroud-color:#99B2DD;
+  border-color: #a882dd;
+  font-size:1.3em;
+  border-width:3px;
+  border-radius:5px;
+  border-style: solid;
+  color:#black;
+  }
+/* This makes the button look different when your mouse hovers over it. */
+.button:hover{
+  background-color: #d3b9f9;
+  color:black;
+  border-color:##767B91;
+  transform:scale(1.05);
+}
+/* This is what all of the buttons have. */
+.buttonWrapper{
+  display:grid;
+  justify-content:center;
+}
+/* This is what it says at the top of the page where it states the information  */
+.section_info{
+  text-align:center;
+  margin:1em;
+  color:#1A535C;
+}
+/* This si how big the h1's are that are also inside of the section info. */
+.section_info h1{
+  font-size:5em;
+}
+/* This makes the line look different the one that is under register. */
+#line{
+  border-color: ##FF6B6B;
+  width:80%;
+  margin-bottom: 4em;
+}
+/* This is what the text will look like on the second page thats inside the result div. */
+.result{
+  width:40%;
+  text-align:40%;
+  display:inline-block;
+  font-size:1.5em;
+  color: #D3F8E2;
+}
+/* This is what the label will look like on the second page. */
+.result_label{
+  width:40%;
+  text-align:right;
+  display:inline-block;
+  font-size:1.5em;
+  color:#2B3A67;
+}
+/* This affects what the first page looks like. */
+#before{
+  opacity:1;
+  display:block;
+}
+/* This affects what the second page looks like */
+#after{
+  display:none;
+
+}
+/* This is what the button looks liek on teh second page. */
+.button:focus #after{
+  display:block;
+
+} 
+/* This makes it so that the before is hidden. */
+#input_username_button:focus #before{
+  display:hidden;
+  opacity:0;
+  position:absolute;
+  top:800px;
+  
+}

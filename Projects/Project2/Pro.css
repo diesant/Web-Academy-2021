@@ -1,0 +1,94 @@
+h1{
+  font-family: Verdana, sans-serif;
+  color: #1D1E18;
+  text-align:center;
+}
+body{
+  background-color: #AAD2BA;
+}
+.self{
+  background-color:#7A9;
+  width: 800px;
+  height: 575px;
+  padding:15px;
+  border:double;
+  margin: 55px 25px 25px 25px;
+  text-align: center
+}
+p{
+  text-align:center;
+}
+.mini{
+  background-color:#AAD2BA;
+  width:300px;
+  height:100px;
+  padding:5px;
+  margin: 25px 25px 25px 25px;
+  text-align: center;
+}
+h3{
+font-family: Verdana, sans-serif;
+}
+.tet{
+  width:300px;
+  text-align:center;
+  margin: 25px 25px 25px 25px;
+}
+.wer{
+  float:left;
+}
+.navigation{
+  background-color: #b9d8c2;
+  width:800px;
+}
+.navigation a{
+  color: gray;
+  float: left;
+  display: block; 
+  text-align: center;
+  padding: 14px 16px;
+}
+.navigation a:hover{
+  background-color: #7A9;
+  color: black;
+  border:solid 1px;
+}
+
+/* Page 2*/
+.canoe{
+  background-color:#7A9;
+  width: 1100px;
+  height: 500px;
+  padding:15px;
+  border:double;
+  margin: 55px 25px 25px 25px;
+  text-align: center
+  }
+.pic{
+  float:left;
+  height:450px;
+}
+.fig{
+  background-color: #b9d8c2;
+  width: 550px;
+  float:right;
+}
+
+/* Page 3*/
+.Zero{
+  background-color:#7A9;
+  width: 800px;
+  height: 575px;
+  padding:15px;
+  border:double;
+  margin: 55px 25px 25px 25px;
+  text-align: center
+}
+.Less{
+  float:left;
+}
+.Lights{
+  width:425px;
+  float:right;
+  font-size: 23px;
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lab #14</title>
+<link rel="stylesheet" href="../../MainPortfolio.css">
+<link rel="stylesheet" href="Lb13.css">
+<link rel="icon" href="logo.jpg" type="image/jpg">
+<style>
+* {
+  box-sizing: border-box;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #9DF3C4;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+#navlist {
+  position: relative;
+}
+
+#navlist li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+}
+
+#navlist li, #navlist a {
+  height: 44px;
+  display: block;
+}
+
+#home {
+  left: 0px;
+  width: 46px;
+  background: url('DSICON.png') 0 0;
+}
+
+#prev {
+  left: 63px;
+  width: 43px;
+  background: url('545682.png') -47px 0;
+}
+
+#next {
+  left: 129px;
+  width: 43px;
+  background: url('123.png') -91px 0;
+}
+</style>
+</head>
+<body>
+ <div class="topnav">
+
+    <a href="../Lab1/lab1.html">LAB # 1 </a>
+    <a href="../Lab2/lab2.html">LAB # 2 </a>
+    <a href="../Lab3/lab3.html">LAB # 3 </a>   
+    <a href="../Lab4/lab4.html">LAB # 4 </a>
+    <a href="../Lab5/Lab5.html">LAB # 5 </a>
+    <a href="../Lab6/Lab6.html">LAB # 6 </a>
+    <a href="../Lab7/Lab7.html">LAB # 7 </a>
+    <a href="../Lab8/Lab8.html">LAB # 8 </a>
+    <a href="../Lab9/Lab9.html">LAB # 9 </a>
+    <a href="../Lb10/Lb10.html">LAB # 10 </a>
+    <a href="../Lb11/Lb11.html">LAB # 11 </a>
+    <a href="../Lb12/Lb12.html">LAB # 12 </a>
+    <a href="../Lb13/Lb13.html">LAB # 13 </a>
+    <a href="../Lb15/Lb15.html">LAB # 15 </a>
+    <a href="../Lb16/Lb16.html">LAB # 16 </a>
+    <a href="../Lb17/Lb17.html">LAB # 17 </a>
+    <a href="../Lb18/Lb18.html">LAB # 18 </a>
+    <a href="../Lb19/Lb19.html">LAB # 19 </a>
+    <a href="../Lb20/Lb20.html">LAB # 20 </a>
+    <a href="../../index.html">Home</a>
+  </div>
+  <div class="header">
+ <h1> Lab # 14      </h1>
+  <h4> Diego Santos         3/1/22 </h4> 
+  </div>
+<h2>Responsive Form</h2>
+<p>Resize the browser window to see the effect. When the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other.</p>
+
+<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">First Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Last Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Country</label>
+    </div>
+    <div class="col-75">
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Subject</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <br> 
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+</div>
+<ul id="navlist">
+  <li id="home"><a href="https://web-academy-2021.diegosantos34.repl.co/index.html"></a></li>
+  <li id="prev"><a href="https://web-academy-2021.diegosantos34.repl.co/Labs/Lb15/Lb15.html"></a></li>
+  <li id="next"><a href="https://web-academy-2021.diegosantos34.repl.co/Labs/Lb13/Lb13.html"></a></li>
+</ul>
+</body>
+</html>

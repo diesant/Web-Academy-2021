@@ -1,0 +1,15 @@
+<!--doctypehtml-->
+	<html> 
+	<head>
+	<base html document>
+	</head>
+	<body>
+	<h1> Taehs </h1>
+	<h2> Web Dev. </h2>
+	<h3> 10th grade </h3>
+	<h4> Lab# </h4>
+	<h5> Learning Material </h5>
+	<h6> Students Names </h6>
+	<p> content </p>
+	</body>
+	</html>

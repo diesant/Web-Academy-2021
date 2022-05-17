@@ -1,0 +1,16 @@
+body{
+text-align:center;
+background-color: #A0AF84;
+color: #696D7D;
+font-family: Verdana;
+}
+.wrapper{
+  border: 5px solid #cdcdcd;
+  width: 400px;
+  height: 200px;
+}
+button{
+  background-color:#faf3dd;
+  border-style:double;
+  font-family: Verdana;
+}

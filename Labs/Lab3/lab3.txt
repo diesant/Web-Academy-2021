@@ -1,0 +1,26 @@
+<!--doctypehtml-->
+	<html> 
+	<head>
+	<title> Lab 2 </title>
+	</head>
+	<body>
+	<h1> Web Dev. </h1>
+	<h2> 9/21/21 </h2>
+	<h3> Lab 3 </h3>
+	<h4> HYPERLINKS</h4>
+	<h5> by</h5>
+	<h6> Diego Santos </h6>
+	<p> To insert a hyperlink what you have to do is start with the tag <.a href=" then you put the link another angle bracket. Then add text for example here. Then finish it off with <./a></p>
+		<a href="http://www.taehs.org">Click here to visit my HS</a>
+<br>		
+		<a href="http://www.taehs.org"><img src="taehs.png" width="250px"></a>\
+<br>		
+		<a href="http://www.w3schools.com">Click here to visit my code </a>
+<br>		
+		<a href="http://www.w3schools.com"><img src="w3123.png" width="250px"></a>
+<br>		
+		<a href="http://www.linkedin.com">Click here to visit my linkedin</a>
+<br>	
+		<a href="http://www.linkedin.com"><img src="w3.png" width="250px"></a>
+	</body>
+	</html>
